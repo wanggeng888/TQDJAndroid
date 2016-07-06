@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list android:shape="rectangle">
+            <item android:right="-0.5dp">
+                <shape>
+                    <stroke android:width="1dp" android:color="@color/inputBoxLineColor" />
+                    <gradient android:endColor="@color/weColorPressed" android:startColor="@color/weColorPressed" />
+                    <corners android:bottomLeftRadius="20dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="false">
+        <layer-list android:shape="rectangle">
+            <item android:right="-0.5dp">
+                <shape>
+                    <stroke android:width="1dp" android:color="@color/inputBoxLineColor" />
+                    <gradient android:endColor="@color/weColor" android:startColor="@color/weColor" />
+                    <corners android:bottomLeftRadius="20dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

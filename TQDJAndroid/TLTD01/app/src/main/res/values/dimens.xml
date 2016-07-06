@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Layout dimen -->
+    <dimen name="bigLogoWidth">300dp</dimen>
+    <dimen name="bigLogoHeight">100dp</dimen>
+    <dimen name="loginInputImgWidth">40dp</dimen>
+    <dimen name="loginInputImgHeight">30dp</dimen>
+    <dimen name="inputLayoutPadding">5dp</dimen>
+    <dimen name="marginLeft20dp">20dp</dimen>
+    <dimen name="marginRight20dp">20dp</dimen>
+    <dimen name="weImageWidth">25dp</dimen>
+    <dimen name="weImageHeight">25dp</dimen>
+
+    <dimen name="mainPageMenuImageWidth">90dp</dimen>
+    <dimen name="mainPageMenuImageHeight">90dp</dimen>
+    <dimen name="imageTextSize">18sp</dimen>
+    <dimen name="weTextSize">22sp</dimen>
+
+    <!-- Text size dimen -->
+    <dimen name="redBigBtnTextSize">22sp</dimen>
+    <dimen name="redTextSize">18sp</dimen>
+    <dimen name="normalTitleTextSize">20sp</dimen>
+    <dimen name="stringListTextSize">22sp</dimen>
+
+    <dimen name="examTitleTextSize">22sp</dimen>
+    <dimen name="examOptionTextSize">20sp</dimen>
+</resources>

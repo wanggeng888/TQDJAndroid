@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="registErrorUsernameExist">注册失败，用户名已存在</string>
+    <string name="registErrorUsernameIllegal">注册失败，账号不合法</string>
+    <string name="registErrorPasswordLength">注册失败，密码必须大于6位</string>
+    <string name="loginErrorUsernamePasswordUNmatched">登录失败，用户名密码不匹配</string>
+    <string name="loginErrorTokenError">登录失败，token返回错误</string>
+    <string name="tokenVerifyError">验证失败，请重新登录</string>
+    <string name="requestErrorParamsError">连接异常，请刷新重试</string>
+    <string name="examUpdateSuccess">题库更新成功</string>
+    <string name="examRecordError">成绩查询异常</string>
+    <string name="examScoreError">成绩计算异常</string>
+
+</resources>

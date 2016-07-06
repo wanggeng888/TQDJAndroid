@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wenc.tltd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/TLTDTheme">
+        <activity
+            android:name=".activity.SigninActivity"
+            android:theme="@style/TLTDLoginRegistTheme" />
+        <activity
+            android:name=".activity.RegistActivity"
+            android:theme="@style/TLTDLoginRegistTheme" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.TLTDActivity" />
+        <activity android:name=".activity.TLTDTxtActivity" />
+        <activity android:name=".activity.SeriesSpeechActivity" />
+        <activity android:name=".activity.SeriesSpeechSubActivity" />
+        <activity android:name=".activity.SeriesSpeechSubSubActivity" />
+        <activity android:name=".activity.SeriesSpeechSubSubTxtActivity" />
+        <activity android:name=".activity.PartyConstitutionActivity" />
+        <activity android:name=".activity.PartyConstitutionTxtActivity" />
+        <activity android:name=".activity.DisciplinaryRegulationsActivity" />
+        <activity android:name=".activity.DisciplinaryRegulationsSubActivity" />
+        <activity android:name=".activity.DisciplinaryRegulationsTxtActivity" />
+        <activity android:name=".activity.AboutWeActivity" />
+        <activity android:name=".activity.OpinionActivity" />
+        <activity android:name=".activity.NewsActivity" />
+        <activity android:name=".activity.NewsInfoActivity" />
+        <activity android:name=".activity.ExamActivity" />
+        <activity android:name=".activity.ExamResultActivity" />
+        <activity android:name=".activity.ExamRecordActivity" />
+        <activity android:name=".activity.ExamSubjectActivity" />
+        <activity android:name=".activity.CarouselActivity"/>
+        <activity
+            android:name=".activity.StratupActivity"
+            android:theme="@style/TLTDLoginRegistTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

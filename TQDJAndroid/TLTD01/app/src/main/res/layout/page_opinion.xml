@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:background="@mipmap/page_main_logo" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:inputType="textMultiLine"
+        android:gravity="top|left"
+        android:hint="@string/opinionHint"
+        android:textColorHint="@color/hintTextColor"
+        android:background="@drawable/shape_input_box" />
+
+    <Button
+        android:id="@+id/page_btn_opinion"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/selector_red_btn"
+        android:text="@string/confirmBtn"
+        android:textColor="@color/redBtnTxtColor"
+        android:textSize="@dimen/redBigBtnTextSize" />
+
+</RelativeLayout>

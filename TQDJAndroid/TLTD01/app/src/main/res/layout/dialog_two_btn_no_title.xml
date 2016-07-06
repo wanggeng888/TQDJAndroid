@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/shape_dialog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:id="@+id/dialogTwoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/positiveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_two_dialog_leftbtn"
+                android:text="是"
+                android:textColor="@color/normalTextColor"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/negativeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_two_dialog_rightbtn"
+                android:text="否"
+                android:textColor="@color/normalTextColor"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_above="@id/dialogTwoBtn"
+            android:id="@+id/dialogMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/normalTextColor"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+</FrameLayout>

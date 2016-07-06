@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/normalColor">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/page_main_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/page_main_vp_carousel"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp">
+
+                </android.support.v4.view.ViewPager>
+
+                <TableLayout
+                    android:id="@+id/page_main_nav_imgs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/page_main_vp_carousel">
+
+                    <TableRow>
+
+                        <LinearLayout
+                            android:id="@+id/main_study_pc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_main_tltd"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/mainPageMenuImageWidth"
+                                android:layout_height="@dimen/mainPageMenuImageHeight"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                android:src="@mipmap/img_study1" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/studyPartyConstitution"
+                                android:textColor="@color/imageTextColor"
+                                android:textSize="@dimen/imageTextSize" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/main_study_ss"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_main_tltd"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/mainPageMenuImageWidth"
+                                android:layout_height="@dimen/mainPageMenuImageHeight"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                android:src="@mipmap/img_study2" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/studySeriesSpeech"
+                                android:textColor="@color/imageTextColor"
+                                android:textSize="@dimen/imageTextSize" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/main_study_tltd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_main_tltd"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/mainPageMenuImageWidth"
+                                android:layout_height="@dimen/mainPageMenuImageHeight"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                android:src="@mipmap/img_do" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/studyTltd"
+                                android:textColor="@color/imageTextColor"
+                                android:textSize="@dimen/imageTextSize" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <LinearLayout
+                            android:id="@+id/main_tltd_record"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_main_tltd"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/mainPageMenuImageWidth"
+                                android:layout_height="@dimen/mainPageMenuImageHeight"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                android:src="@mipmap/img_record" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/examinationRecord"
+                                android:textColor="@color/imageTextColor"
+                                android:textSize="@dimen/imageTextSize" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/main_exam_subject"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_main_tltd"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/mainPageMenuImageWidth"
+                                android:layout_height="@dimen/mainPageMenuImageHeight"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                android:src="@mipmap/img_exam" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/examinationBank"
+                                android:textColor="@color/imageTextColor"
+                                android:textSize="@dimen/imageTextSize" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/main_study_dr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_main_tltd"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/mainPageMenuImageWidth"
+                                android:layout_height="@dimen/mainPageMenuImageHeight"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                android:src="@mipmap/img_example" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/disciplinaryAdction"
+                                android:textColor="@color/imageTextColor"
+                                android:textSize="@dimen/imageTextSize" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:id="@+id/page_main_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/weImageWidth"
+                    android:layout_below="@id/page_main_nav_imgs"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp">
+
+                    <TextView
+                        android:id="@+id/page_main_news_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|bottom"
+                        android:layout_weight="1"
+                        android:text="@string/newsCenter"
+                        android:textColor="@color/listTitleColor"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tv_news_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_weight="5"
+                        android:gravity="right"
+                        android:text="@string/newsMore"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/page_main_news"
+                    android:layout_marginTop="5dp"
+                    android:background="#D7D6DB" />
+
+                <ListView
+                    android:id="@+id/page_main_news_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/page_main_news"
+                    android:layout_marginTop="-3dp"
+                    android:padding="10dp"></ListView>
+            </RelativeLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

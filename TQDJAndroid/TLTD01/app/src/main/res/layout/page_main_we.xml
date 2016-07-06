@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/normalColor">
+
+    <ImageView
+        android:id="@+id/we_big_img"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/img_we_big" />
+
+    <ImageView
+        android:id="@+id/we_login_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@id/we_big_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/we_login_img" />
+
+    <TextView
+        android:id="@+id/we_account_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/we_login_img"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/weTextColor"
+        android:textSize="@dimen/weTextSize"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/we_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/we_big_img"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_we"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:layout_width="@dimen/weImageWidth"
+            android:layout_height="@dimen/weImageHeight"
+            android:src="@mipmap/we_delete" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/deleteBuf"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/we_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/we_delete"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_we"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:layout_width="@dimen/weImageWidth"
+            android:layout_height="@dimen/weImageHeight"
+            android:src="@mipmap/we_we" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/aboutWe"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/we_opinion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/we_about"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/selector_we"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:layout_width="@dimen/weImageWidth"
+            android:layout_height="@dimen/weImageHeight"
+            android:src="@mipmap/we_message" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/opinion"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/we_signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/we_opinion"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_we"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:layout_width="@dimen/weImageWidth"
+            android:layout_height="@dimen/weImageHeight"
+            android:src="@mipmap/we_signout" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/signout"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</RelativeLayout>

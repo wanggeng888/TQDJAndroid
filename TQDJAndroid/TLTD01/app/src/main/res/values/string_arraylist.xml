@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ssList">
+        <item>《习近平总书记系列重要讲话读本（2016年版）》</item>
+        <item>锡党组办字〔2016〕51号\t关于设立全盟“两学一做”学习教育\t协调小组的通知</item>
+        <item>2016-04-24\t狄瑞珍\t在全盟“两学一做”学习教育\t工作座谈会上的讲话</item>
+        <item>2016-04-24\t罗虎在\t在全盟“两学一做”学习教育\t工作座谈会上的讲话</item>
+        <item>廉洁自律准则</item>
+    </string-array>
+
+</resources>

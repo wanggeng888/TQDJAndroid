@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xdzbSsTitle0">关于设立全盟“两学一做”学习教育协调小组的通知</string>
+    <string-array name="xdzbSsTitle0Sub">
+        <item>部机关各科室（中心）：</item>
+        <item>　　参照中组部和自治区党委组织部的做法，经盟委主要领导同意，设立全盟“两学一做”学习教育协调小组，由盟委委员、组织部部长狄瑞珍牵头，盟委组织部副部长王海亮，盟委组织部副部长、盟委正处级组织员戴国忠具体负责日常工作。成员为陶文权、杨金柱、王卫国、段振华、常雪林、张丽清。下设综合组、材料组、宣传组、旗县市（区）督导组、盟直单位督导组、企事业单位督导组6个工作组，组成人员名单及职责如下：</item>
+    </string-array>
+
+    <string name="xdzbSsTitle1">综合组</string>
+    <string-array name="xdzbSsTitle1Sub">
+        <item>　　主要负责综合工作，做好办文办会、服务保障、组织协调和沟通联络等。</item>
+        <item>成员：刘东伟　盟委组织部组织三科科员</item>
+        <item>成员：刘东伟　盟委组织部组织三科科员</item>
+        <item>　　　沈　祺　盟委组织部调训干部</item>
+        <item>　　　战　鑫　盟委组织部调训干部（联络员）</item>
+        <item>　　　那仁满都拉　盟委组织部调训干部（联络员）</item>
+    </string-array>
+
+    <string name="xdzbSsTitle2">材料组</string>
+    <string-array name="xdzbSsTitle2Sub">
+        <item>　　主要负责材料工作，起草重要文件、综合文稿、领导讲话等。</item>
+        <item>组长：常雪林　盟委组织部研究室主任</item>
+        <item>成员：倪守法　盟委组织部研究室副科级干部</item>
+        <item>　　　杨仲福　盟委组织部研究室科员</item>
+        <item>　　　秦  丰　盟委组织部调训干部（联络员）</item>
+    </string-array>
+
+    <string name="xdzbSsTitle3">宣传组</string>
+    <string-array name="xdzbSsTitle3Sub">
+        <item>　　主要负责宣传工作，做好信息简报编发、新闻报道和典型宣传等。</item>
+        <item>组长：段振华　盟委组织部办公室主任</item>
+        <item>成员：闫志勇　盟委组织部办公室副主任</item>
+        <item>　　　范国瑞　盟委组织部信息中心副主任</item>
+        <item>　　　康　滢　盟委宣传部新闻科科员（联络员）</item>
+        <item>　　　马也驰　盟委组织部调训干部</item>
+        <item>　　　王　欢　盟委组织部调训干部（联络员）</item>
+    </string-array>
+
+    <string name="xdzbSsTitle4">旗县市（区）督导组</string>
+    <string-array name="xdzbSsTitle4Sub">
+        <item>　　主要负责13个旗县市（区）学习教育的督导工作，了解掌握所督导地区学习教育进展情况，总结推广有效经验，及时发现和研究解决存在的问题，做好工作情况汇总、问题反馈、政策解释、有关学习资料发放等工作。</item>
+        <item>组长：杨金柱　盟委党代表联络办公室主任</item>
+        <item>成员：塔　拉　盟委组织部党员教育中心副主任</item>
+        <item>　　　刘伟超　盟委组织部组织二科副科长（联络员）</item>
+        <item>　　　巴图吉日嘎拉　盟委组织部调训干部（联络员）</item>
+        <item>　　　查荷日玛　盟委组织部调训干部</item>
+        <item>　　　刘红霞　盟委组织部调训干部</item>
+        <item>　　　牡　丹　盟委组织部调训干部</item>
+    </string-array>
+
+    <string name="xdzbSsTitle5">盟直单位督导组</string>
+    <string-array name="xdzbSsTitle5Sub">
+        <item>　　负责盟直属机关及其二级单位学习教育的督导工作，了解掌握所督导单位学习教育进展情况，总结推广有效经验，及时发现和研究解决存在的问题，做好工作情况汇总、问题反馈、政策解释、有关学习资料发放等工作。</item>
+        <item>组长：陶文权　盟直机关党工委副书记、盟委正处级组织员</item>
+        <item>成员：韩有良　盟直机关党工委群工部部长</item>
+        <item>　　　阿拉腾乌拉　盟委组织部干部一科主任科员</item>
+        <item>　　　王秀梅　盟委组织部组织一科副科长（联络员）</item>
+        <item>　　　薛建国　盟直机关党工委正科级组织员（联络员）</item>
+    </string-array>
+
+    <string name="xdzbSsTitle6">企事业单位督导组</string>
+    <string-array name="xdzbSsTitle6Sub">
+        <item>　　负责锡林郭勒职业学院、驻地国有企业、非公有制经济组织和社会组织学习教育的督导工作，了解掌握所督导单位学习教育进展情况，总结推广有效经验，及时发现和研究解决存在的问题，做好工作情况汇总、问题反馈、政策解释、有关学习资料发放等工作。</item>
+        <item>组长：王卫国　盟委非公有制经济组织和社会组织工作委员会常务副书记</item>
+        <item>成员：庆格乐图　盟委组织部组织一科科长</item>
+        <item>　　　李雪清　盟非公企业党建办公室主任</item>
+        <item>　　　齐永刚　盟个私企业党建办公室主任</item>
+        <item>　　　刘瑞芳　盟社会组织党建办公室主任</item>
+        <item>　　　褚一强　盟委组织部信息中心正科级干部（联络员）</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="TLTDLoginRegistTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <style name="TLTDTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <!--<item name="android:actionBarStyle">@style/AppBarOverlay</item>-->
+        <!--<item name="android:actionBarSize">30dp</item>-->
+    </style>
+
+    <style name="AppBarOverlay" parent="@android:style/Widget.Holo.Light.ActionBar" >
+    </style>
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <!-- new activity run in right, old activity run out left -->
+        <item name="android:activityOpenEnterAnimation">@anim/activity_rightin_anim</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_leftout_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_leftin_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_rightout_anim</item>
+    </style>
+
+    <style name="dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

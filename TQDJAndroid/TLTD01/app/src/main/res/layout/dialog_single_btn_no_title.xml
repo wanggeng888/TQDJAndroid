@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/shape_dialog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+            <Button
+                android:id="@+id/positiveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_single_dialog_btn"
+                android:text="是"
+                android:textColor="@color/normalTextColor"
+                android:layout_alignParentBottom="true"
+                android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dialogSingleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/positiveBtn"
+            android:textColor="@color/normalTextColor"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+</FrameLayout>

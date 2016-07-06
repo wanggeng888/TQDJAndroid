@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="normalColor">#F0EFF5</color>
+    <color name="redText">#C30D23</color>
+    <color name="hintTextColor">#E1E1E1</color>
+    <color name="normalTextColor">#4A4A4A</color>
+    <color name="redBigBtnColor">#AD0017</color>
+    <color name="redBigBtnColorPressed">#8d0000</color>
+    <color name="redBtnTxtColor">#F1F1F1</color>
+    <color name="redTextColor">#AD0017</color>
+    <color name="redTextColorPressed">#8d0000</color>
+    <color name="inputBoxLineColor">#C2C2C4</color>
+    <color name="imageTextColor">#6F7072</color>
+    <color name="listTitleColor">#686868</color>
+    <color name="newsTitleColor">#020202</color>
+    <color name="newsTextColor">#7F7F7F</color>
+    <color name="newsOtherColor">#B9B9B9</color>
+    <color name="partyConstitutionTitleColor">#020202</color>
+    <color name="actionbarTxtColor">#F1F1F1</color>
+    <color name="actionbarBgColor">#C00D23</color>
+
+    <color name="navTxt">#EF2D36</color>
+    <color name="navTxtNormal">#6A6A6A</color>
+    <color name="navMenuColor">#F7F7F7</color>
+    <color name="weTextColor">#FFFFFF</color>
+
+    <color name="mainTltdColor">#F0EFF5</color>
+    <color name="mainTltdColorPressed">#D4D4D4</color>
+
+    <color name="weColor">#FFFFFF</color>
+    <color name="weColorPressed">#D4D4D4</color>
+
+    <color name="dialogColor">#FFFFFF</color>
+    <color name="dialogBtnBoxColor">#C2C2C4</color>
+</resources>

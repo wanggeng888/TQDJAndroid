@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">太旗党建</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="loginEtxUsernameHint">请输入用户名</string>
+    <string name="loginEtxPasswordHint">请输入密码</string>
+    <string name="loginTxtForgetPassword">忘记密码</string>
+    <string name="loginTxtRegist">免费注册</string>
+    <string name="loginBtnTxt">登录</string>
+    <string name="registBtnTxt">注册</string>
+    <string name="confirmBtn">确认提交</string>
+    <string name="studyPartyConstitution">学党章党规</string>
+    <string name="studySeriesSpeech">学系列讲话</string>
+    <string name="studyTltd">做合格党员</string>
+    <string name="news">新闻动态</string>
+    <string name="examCenter">考试中心</string>
+    <string name="nextExam">下一题</string>
+    <string name="examinationRecord">考试记录</string>
+    <string name="examinationBank">考试题库</string>
+    <string name="disciplinaryAdction">纪律处分</string>
+    <string name="newsCenter">新闻中心</string>
+    <string name="newsMore">更多</string>
+    <string name="generalProgramme">总纲</string>
+    <string name="accountText">账号：</string>
+    <string name="nameText">姓名：</string>
+    <string name="back">返回</string>
+    <string name="deleteBuf">清除缓存</string>
+    <string name="aboutWe">关于我们</string>
+    <string name="opinion">意见反馈</string>
+    <string name="signout">注销登录</string>
+    <string name="beginExam">开始考试</string>
+    <string name="updateExam">更新题库</string>
+    <string name="examRecord">考试记录</string>
+    <string name="examSubject">考试题库</string>
+
+
+    <string name="examResultIdiot">太差劲了</string>
+    <string name="examResultWorkHard">仍需努力</string>
+    <string name="examResultStillWorkHard">继续努力</string>
+    <string name="examResultNice">不错</string>
+    <string name="examResultPerfect">太厉害了</string>
+
+    <string name="mainPage">首页</string>
+    <string name="exam">考试</string>
+    <string name="mine">我的</string>
+
+    <string name="tqdj">太旗党建 V1.0.0</string>
+
+    <string name="copyright1">内蒙古太仆寺旗委员会组织部 版权所有</string>
+    <string name="copyright2">Copyright © TaiPuSi Organization</string>
+    <string name="copyright3">All Rights Reserved</string>
+
+    <string name="opinionHint">写下您的宝贵意见或将意见发送至我们的邮箱tqzzbbgs@163.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
